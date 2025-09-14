@@ -90,7 +90,7 @@ function Navbar() {
         {/* Logo + Brand */}
         <div className="flex items-center space-x-3">
           <img
-            src="/images/logo.png"
+            src="public/images/logo.png"
             alt="Infinite Practice Logo"
             className="w-10 h-10 sm:w-12 sm:h-12 rounded-full"
           />
@@ -191,7 +191,7 @@ function About() {
         {/* Left - Image */}
         <div className="flex-1 flex justify-center">
           <img
-            src="/images/logo.png"
+            src="public/images/logo.png"
             alt="Student preparing for exam"
             className="w-72 md:w-96 max-w-full drop-shadow-xl rounded-full"
           />
