@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* You can keep custom styles below if needed */
+/* index.css or App.css */
+html, body, #root {
+  height: auto;
+  margin: 0;
+  overflow-y: auto;
+  padding: 0; /* ✅ Prevent outer scrollbar */
+  scroll-behavior: smooth;
+}
+
